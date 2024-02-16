@@ -1,0 +1,19 @@
+body {
+  background: $color__background-body; // Fallback for when there is no custom background color defined.
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+
+  &.js-no-transition {
+    scroll-behavior: auto;
+  }
+}
+
+body.js-modal-is-open {
+  height: 100vh;
+  height: calc(var(--window-inner-height) - 1px);
+  overflow: hidden;
+  box-sizing: border-box;
+}

@@ -1,0 +1,200 @@
+.instagram-content-block{
+  padding: 100px 0 250px;
+  &:before{
+    content: '';
+    @include bg-contain();
+    width: 332px;
+    height: 173px;
+    display: block;
+    position: relative;
+    top: 40px;
+    background-image: url("img/animate/instagram-arrow.gif");
+    margin: 0px auto 40px;
+    transform: rotate(20deg);
+  }
+  .twentyfour-content{
+    p{
+      max-width: 378px;
+    }
+  }
+  .instagram-art-feed{
+    position: relative;
+    top: -40px;
+    max-width: 580px;
+    margin: 0px auto;
+
+    #sb_instagram #sbi_images{
+      scale: 1.2;
+      left: -60px;
+      position: relative;
+    }
+
+    .sb_instagram_header{
+      display: none;
+    }
+    #sbi_load{
+      display: none;
+    }
+    .sbi_item{
+      box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+      background-color: white;
+      &:nth-child(1){
+        transform: rotate(12deg);
+        float: right !important;
+        display: block !important;
+        position: relative;
+      }
+      &:nth-child(2){
+        transform: rotate(-10deg);
+        float: right !important;
+        display: block !important;
+        position: relative;
+        top: 110px;
+        height: 286px;
+        .sbi_photo{
+          height: 271px !important;
+        }
+      }
+      &:nth-child(3){
+        transform: rotate(5deg);
+        float: right !important;
+        display: block !important;
+        position: relative;
+        top: 238px;
+        z-index: 2;
+        right: -324px;
+      }
+    }
+  }
+  .instagram-btn{
+    background-image: url("img/icon/instagram.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
+  }
+  .pintrest-btn{
+    background-image: url("img/icon/instagram.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
+  }
+  .social-media-btns{
+    a{
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 18px */
+      letter-spacing: 3.24px;
+      text-transform: uppercase;
+      color: $avocado;
+      text-decoration: none;
+      transition: .2s;
+        &:first-of-type{
+          margin-right: 20px;
+      }
+      &:hover{
+        color: $carrot;
+        .pintrest-btn{
+          background-image: url("img/icon/instagram-red.svg");
+        }
+        .instagram-btn{
+          background-image: url("img/icon/instagram-red.svg");
+        }
+      }
+    }
+  }
+}
+
+
+#sb_instagram.sbi_col_3 #sbi_images .sbi_item{
+  min-width: 188px;
+}
+@media (max-width: 1000px){
+  .instagram-content-block .instagram-art-feed{
+    margin-top: 100px;
+    min-height: 190px;
+  }
+}
+
+@media (max-width: 600px){
+
+  .instagram-content-block .instagram-art-feed{
+    margin-top: -100px;
+    min-height: 190px;
+    margin-bottom: 200px;
+  }
+  .instagram-content-block{
+    padding-bottom: 50px;
+  }
+
+  .instagram-content-block{
+    .flex_container.flex_two > .flex_item:nth-of-type(1){
+      order:2;
+    }
+    .flex_container.flex_two > .flex_item:nth-of-type(2){
+      order:1;
+    }
+  }
+
+  .instagram-content-block .instagram-art-feed #sb_instagram #sbi_images{
+    left: 0;
+  }
+
+ .instagram-content-block {
+   .instagram-art-feed {
+     .sbi_item {
+       min-width: 191px;
+       width: 191px;
+       position: absolute;
+
+       &:nth-child(1) {
+         transform: rotate(12deg);
+         position: absolute;
+         top: 30px;
+         left: 47%;
+         width: 140px !important;
+         min-width: 140px !important;
+         height: 140px;
+       }
+
+       &:nth-child(2) {
+         transform: rotate(-10deg);
+         top: 80px;
+         height: 196px;
+         position: absolute;
+         z-index: -1;
+         width: 140px !important;
+         min-width: 140px !important;
+         left: 40px;
+
+
+         .sbi_photo {
+           height: 182px !important;
+         }
+       }
+
+       &:nth-child(3) {
+         transform: rotate(5deg);
+         top: 188px;
+         z-index: 2;
+         right: 30px;
+         position: absolute;
+         min-width: 140px !important;
+         width: 140px !important;
+       }
+     }
+   }
+ }
+}

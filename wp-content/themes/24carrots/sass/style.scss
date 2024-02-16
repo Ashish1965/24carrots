@@ -1,0 +1,266 @@
+/*!
+Theme Name: 24carrots 2.0
+Theme URI: https://24carrots.com/
+Author: Dooley Creative + Tim
+Author URI: https://24carrots.com/
+Description: Custom Theme developed for 24carrots
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: 24carrots
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+24carrots is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+// Import variables and mixins.
+@import "abstracts/abstracts";
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+@import "generic/normalize";
+
+/* Box sizing
+--------------------------------------------- */
+@import "generic/box-sizing";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "base/base";
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+// @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
+// @import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components/components";
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+@import "plugins/jetpack/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+@import "utilities/accessibility";
+
+/* Alignments
+--------------------------------------------- */
+@import "utilities/alignments";
+
+/* 24carrots
+--------------------------------------------- */
+@import "24carrots";
+
+/* 24C Header
+--------------------------------------------- */
+@import "24carrots/header";
+
+/* 24C Header
+--------------------------------------------- */
+@import "24carrots/footer";
+
+/* 24C Video Section Block
+--------------------------------------------- */
+@import "24carrots/video-section-block";
+
+/* 24C Signup Block
+--------------------------------------------- */
+@import "24carrots/signup-block";
+
+/* 24C Signup Block
+--------------------------------------------- */
+@import "24carrots/content-slider-block";
+
+/* 24C Circle Banner Content
+--------------------------------------------- */
+@import "24carrots/circle-banner-content-block";
+
+/* 24C Instagram Content Block
+--------------------------------------------- */
+@import "24carrots/instagram-content-block";
+
+/* 24C Range Scrubber Control
+--------------------------------------------- */
+@import "24carrots/range-scrubber";
+
+/* 24C Service Grid Block
+--------------------------------------------- */
+@import "24carrots/service-grid-block";
+
+/* 24C Scroll Accordian Block
+--------------------------------------------- */
+@import "24carrots/scroll-accordian-block";
+
+/* 24C Square Slider Block
+--------------------------------------------- */
+@import "24carrots/square-slider-block";
+
+/* 24C Blog Buzz Block
+--------------------------------------------- */
+@import "24carrots/blog-buzz-block";
+
+/* 24C Testimonial Block
+--------------------------------------------- */
+@import "24carrots/testimonial-block";
+
+/* 24C Team-members-block
+--------------------------------------------- */
+@import "24carrots/team-members-block";
+
+/* 24C Simple Content Block
+--------------------------------------------- */
+@import "24carrots/simple-content-block";
+
+/* 24C Gallery Slider Block
+--------------------------------------------- */
+@import "24carrots/gallery-slider-block";
+
+/* 24C Planning Form Block
+--------------------------------------------- */
+@import "24carrots/planning-form-block";
+
+/* 24C Oval Link Block
+--------------------------------------------- */
+@import "24carrots/oval-link-block";
+
+/* 24C Award Section Block
+--------------------------------------------- */
+@import "24carrots/award-section-block";
+
+/* 24C Venue Details Page
+--------------------------------------------- */
+@import "24carrots/venue-details";
+
+/* 24C Venue Archive Block
+--------------------------------------------- */
+@import "24carrots/venue-archive-block";
+
+/* 24C Featured Venues Block
+--------------------------------------------- */
+@import "24carrots/featured-venues-block";
+
+/* 24C Venue Square Preview component
+--------------------------------------------- */
+@import "24carrots/venue-sq-preview";
+
+/* 24C Venue Card Preview component
+--------------------------------------------- */
+@import "24carrots/venue-card-preview";
+
+/* Filter Bar component
+--------------------------------------------- */
+@import "24carrots/filter-bar";
+
+/* 24C Contact Page Block
+--------------------------------------------- */
+@import "24carrots/contact-page-block";
+
+/* 24C Contact Page Block
+--------------------------------------------- */
+@import "24carrots/blog";
+
+/* 24C Oval Image Block
+--------------------------------------------- */
+@import "24carrots/oval-image-block";
+
+/* 24C Oval Title Links Block
+--------------------------------------------- */
+@import "24carrots/oval-title-links-block";
+
+/* 24C Grid Content Block
+--------------------------------------------- */
+@import "24carrots/grid-content-block";
+
+/* 24C Grid Content Block
+--------------------------------------------- */
+@import "24carrots/youtube-embed-block";
+
+/* 24C Split Text Image Block
+--------------------------------------------- */
+@import "24carrots/split-text-image-block";
+
+/* 24C Information Slider Block
+--------------------------------------------- */
+@import "24carrots/information-slider-block";
+
+/* 24C Youtube Playlist Block
+--------------------------------------------- */
+@import "24carrots/youtube-playlist-block";
+
+/* Venue Featured Block
+--------------------------------------------- */
+@import "24carrots/venue-featured-block";
+
+/* Oval Split Block
+--------------------------------------------- */
+@import "24carrots/oval-split-block";
+
+/* Video Image Gallery Block
+--------------------------------------------- */
+@import "24carrots/video-image-gallery-block";
+
+/* Mobile Menu
+--------------------------------------------- */
+@import "24carrots/mobile-menu";
+
+/* Interactive modal lightbox styles
+--------------------------------------------- */
+@import "24carrots/modal";
+
+/* 24carrots
+--------------------------------------------- */
+@import "mobile";

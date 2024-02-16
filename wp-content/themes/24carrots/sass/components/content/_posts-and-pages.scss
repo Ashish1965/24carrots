@@ -1,0 +1,20 @@
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+}
+
+.page-links {
+	clear: both;
+}

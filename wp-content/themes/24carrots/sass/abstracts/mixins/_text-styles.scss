@@ -1,0 +1,56 @@
+@mixin text-style-headline{
+    font-family: $font-titles;
+    font-size: rem(61);
+    
+    @media(min-width: 1024px) {
+        font-size: rem(48);
+    }
+}
+
+@mixin text-style-serif{
+    font-family: $font-titles;
+    line-height: 1.1;
+}
+
+@mixin text-style-wide-sans{
+    font-family: $font-body;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+@mixin text-style-wide-tracking{
+    letter-spacing: 0.07em;
+}
+
+@mixin text-style-heading-h2{
+    @include text-style-serif;
+    @include margin-reset;
+    font-size: rem(48);
+    font-weight: 400;
+
+    @media(min-width: 1024px) {
+        font-size: rem(56);   
+    }
+}
+
+@mixin text-style-heading-h3{
+    @include text-style-serif;
+    @include margin-reset;
+    font-size: rem(32);
+    font-weight: 400;
+
+    @media(min-width: 1024px) {
+        font-size: rem(40);   
+    }
+}
+
+@mixin text-style-heading-h4{
+    @include text-style-serif;
+    @include margin-reset;
+    font-size: rem(22);
+    font-weight: 400;
+
+    @media(min-width: 1024px) {
+        font-size: rem(28);   
+    }
+}
